@@ -21,7 +21,7 @@ app.get('/', function (req, res) {
 });
 
 
-app.use('/api/users', userRouter);
+// app.use('/api/users', userRouter);
 
 
 
