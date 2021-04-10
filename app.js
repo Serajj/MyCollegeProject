@@ -12,7 +12,7 @@ app.use(express.json())
 // For parsing application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: true }))
 
-app.post('/', function (req, res) {
+app.get('/', function (req, res) {
 
     return res.status(200).json({
         "Status": "Server Running",
